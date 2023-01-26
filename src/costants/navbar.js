@@ -13,7 +13,7 @@ export const navElements = [
   },
   {
     id: 2,
-    label: "Ordini",
+    label: "Prodotti",
     icon: <GrCreditCard />,
   },
   {

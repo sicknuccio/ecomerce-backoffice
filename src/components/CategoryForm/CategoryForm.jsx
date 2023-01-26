@@ -44,7 +44,6 @@ export function CategoryForm({
       image: dataImage,
     };
     PUT("categories", updatedCategory, id).then((res) => {
-      console.log(updatedCategory);
       if (res.status === 200) {
         setModalActive(false);
       }

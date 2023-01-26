@@ -89,8 +89,7 @@ export function Category() {
                         <button
                           className={styles.remove_btn}
                           onClick={() => {
-                            DELETE("categories", id).then((res) => {
-                              console.log(res);
+                            DELETE("categories", id).then(() => {
                               fetchData();
                             });
                           }}
